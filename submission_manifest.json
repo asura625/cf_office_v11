@@ -1,0 +1,22 @@
+{
+  "manifest_version": "submission_manifest.v1",
+  "repo_layout_rules": {
+    "manifest_path": "submission_manifest.json",
+    "readme_path": "README.md",
+    "artifacts_dir": "artifacts",
+    "artifact_extension": ".zip"
+  },
+  "artifacts": [
+    {
+      "family_id": "cf_interceptor_office",
+      "interface_version": "submission_zip.v1",
+      "artifact_path": "artifacts/cf_interceptor_office/submission.zip",
+      "sha256": "0e950f32ef392cf15d95d8fee4e101f764651c187a07edafa1b17874e2ed8bf2",
+      "size_bytes": 17772515,
+      "metadata": {
+        "packaged_with": "manual_zip_multifile",
+        "source_dir_name": "agent"
+      }
+    }
+  ]
+}
